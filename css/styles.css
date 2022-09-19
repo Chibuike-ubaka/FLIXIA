@@ -92,7 +92,7 @@ p {
 
 .download-text1 {
   line-height: 1.5;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-family: "Montserrat";
   font-weight: bold;
 }
@@ -286,11 +286,17 @@ input[type="submit"]:hover {
     margin: 2% 10% 3%;
   }
   .download-img {
-    align-items: center;
-    width: 400px;
+    width: 350px;
+     
   }
 
   .nav-form {
     padding: 0 10px;
   }
+  .download-text1 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
 }
