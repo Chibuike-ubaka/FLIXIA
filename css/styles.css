@@ -86,13 +86,13 @@ p {
 }
 
 .download-img {
-  width: 750px;
+  width: 600px;
   padding-right: 45px;
 }
 
 .download-text1 {
   line-height: 1.5;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Montserrat";
   font-weight: bold;
 }
@@ -286,22 +286,17 @@ input[type="submit"]:hover {
     margin: 2% 10% 3%;
   }
   .download-img {
-    width: 2300px;
-     
+    align-items: center;
+    width: 350px;
   }
 
   .nav-form {
     padding: 0 10px;
   }
   .download-text1 {
-  line-height: 1.5;
-  font-size: 2.5rem;
-  font-family: "Montserrat";
-  font-weight: bold;
-}
-  
- .download-container {
-    margin: 0;
-    padding: 0;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
   }
 }
