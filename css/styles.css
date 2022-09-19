@@ -2,7 +2,9 @@ body {
   font-family: "Montserrat";
   text-align: center;
   align-items: center;
+  padding: 0;
   margin: 0;
+  width; 100%;
   overflow-x: hidden;
 }
 
@@ -90,6 +92,7 @@ p {
 .download-img {
   width: 600px;
   padding-right: 45px;
+  max-width: 100%;
 }
 
 .download-text1 {
