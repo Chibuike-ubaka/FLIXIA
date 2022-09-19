@@ -82,11 +82,19 @@ p {
 
 .download {
   margin-top: 70px;
+  margin-left: 0;
 }
 
 .download-img {
   width: 750px;
   padding-right: 45px;
+}
+
+.download-text1 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 .download-text {
@@ -279,7 +287,7 @@ input[type="submit"]:hover {
   }
   .download-img {
     align-items: center;
-    width: 500px;
+    width: 400px;
   }
 
   .nav-form {
