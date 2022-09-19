@@ -1,0 +1,288 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: rgb(88, 86, 86);
+}
+
+.big-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Nav Bar  */
+.navbar {
+  padding: 0 5%;
+  margin-bottom: 4.5rem;
+  background-color: #f5b04883;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: medium;
+  color: #e80f88;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-form {
+  padding: 0 0 0 70px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: light;
+  color: #ebe2e7;
+}
+
+/* tittle section  */
+#title {
+  width: 100%;
+  height: 100vh;
+  background: url("flixia-img5.jpg") top center;
+  background-size: cover;
+  padding: 5% 5% 0;
+  color: #ffff;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-img {
+  width: 100px;
+}
+
+.big-heading2 {
+  color: #ffff;
+}
+
+/*Download Section*/
+#download {
+  background-color: #f5b048c4;
+  padding: 3% 2% 2%;
+}
+
+.download {
+  margin-top: 70px;
+}
+
+.download-img {
+  width: 750px;
+  padding-right: 45px;
+}
+
+.download-text {
+  color: #000214;
+}
+
+/* feauture section  */
+#features {
+  padding: 10% 3%;
+  background-color: #000214;
+  position: relative;
+  z-index: -1;
+}
+
+.feature-tittle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f7f7f7;
+}
+
+.feature-text {
+  color: #ffff;
+}
+
+.change-color {
+  margin: 1rem;
+  color: #f5b048;
+}
+
+.change-color:hover {
+  color: #745426;
+}
+
+/* Pricing section  */
+#pricing {
+  padding: 5%;
+  background: url("flixia-img3.jpg") top center;
+  text-align: center;
+}
+
+.price-section-heading {
+  margin: 2% 25% 3%;
+  font-size: 2rem;
+  line-height: 1;
+  color: #ffff;
+}
+
+.price-text2 {
+  color: #ffff;
+}
+
+.pricing-space1 {
+  margin-bottom: 180px;
+}
+
+.pricing-space {
+  margin-bottom: 100px;
+}
+
+.shadow {
+  box-shadow: #080808;
+  background-color: rgba(170, 122, 19, 0.616);
+  color: #ffff;
+}
+
+/*About section*/
+#about {
+  text-align: left;
+  background-color: #000214;
+  padding: 5%;
+}
+
+.about-text {
+  color: white;
+}
+
+/* call to action */
+
+#cta {
+  background: url("flixia-img4.jpg") top center;
+  line-height: 1.5;
+  color: #ffff;
+  text-align: center;
+  align-items: center;
+  padding: 5%;
+}
+
+/*contact form */
+#contact-us {
+  background-color: #eca2cb;
+  padding: 5%;
+}
+
+/*email news letter start*/
+
+.news-letter-text {
+  color: white;
+}
+
+/* Download Buttons  */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*button  styling*/
+
+.btn {
+  background-color: #000214;
+  border: 0;
+  color: #f7f7f7;
+}
+
+.btn:hover {
+  background-color: #f5b048;
+  border: 0;
+}
+
+.btn2 {
+  background-color: #f5b048;
+  border: 0;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: #857a6a;
+  border: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+input[type="submit"] {
+  background-color: #e80f88;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* footer area  */
+#footer {
+  padding: 3% 0;
+}
+/* social links  */
+
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin: 20px 10px;
+}
+
+.social-links a:hover {
+  background-color: #f5b048;
+}
+
+@media (max-width: 1036px) {
+  #title {
+    text-align: center;
+    height: 120vh;
+  }
+
+  .price-section-heading {
+    margin: 2% 10% 3%;
+  }
+  .download-img {
+    align-items: center;
+    width: 500px;
+  }
+
+  .nav-form {
+    padding: 0 10px;
+  }
+}
