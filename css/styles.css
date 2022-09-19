@@ -299,4 +299,9 @@ input[type="submit"]:hover {
   font-family: "Montserrat";
   font-weight: bold;
 }
+  
+ .download-container {
+    margin: 0;
+    padding: 0;
+  }
 }
